@@ -1,0 +1,9 @@
+
+#equal{
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+#equal:active{
+    background-color: rgb(10, 131, 252);
+}

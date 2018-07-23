@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#calculator {
+  width: 300px;
+  height: 506px;
+  margin: 80px auto;
+  border: 15.5px solid rgba(202, 176, 129, 0.288);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 20px 20px 20px #a5a4a4;
+}
+
+

@@ -1,0 +1,39 @@
+
+#cal-in {
+    width: 100%;
+}
+
+#cal-in table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+}
+
+
+#cal-in tr {
+    height: 71px;
+    width: 100%;
+}
+
+#cal-in td {
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 71px;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+table tr:first-child {
+    background-color: #f1f1f1;
+    color: dodgerblue;
+}
+
+table tr td:nth-child(4) {
+    background-color: #f1f1f1;
+    color: dodgerblue;
+}
+
+#cal-in td:not(.equal):active {
+    background-color: #e2e2e2;
+}
